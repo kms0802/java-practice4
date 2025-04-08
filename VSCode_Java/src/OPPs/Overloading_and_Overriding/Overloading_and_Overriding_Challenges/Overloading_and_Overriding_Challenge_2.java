@@ -12,6 +12,7 @@ class MusicPlayer {
 }
 
 class SmartMusicPlayer extends MusicPlayer {
+    @Override
     public void play(String song) {
         System.out.println("[스마트 플레이어] 고음질 재생: " + song);
     }
