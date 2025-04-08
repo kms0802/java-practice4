@@ -11,6 +11,7 @@ class Camera {
 }
 
 class SmartCamera extends Camera {
+    @Override
     public void takePhoto() {
         System.out.println("[스마트 카메라] AI 인식후 사진을 찍었습니다.");
     }
