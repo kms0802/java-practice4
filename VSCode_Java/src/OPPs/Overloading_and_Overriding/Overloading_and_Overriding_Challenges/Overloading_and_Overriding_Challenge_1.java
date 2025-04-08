@@ -6,8 +6,8 @@ class Messenger {
     }
 
     public void send(String message,int count) {
-        for (int i = 0; i <= count; i++) {
-            System.out.println("[기본 메신저] (" + i + "/" + count + ") 안녕");
+        for (int i = 1; i <= count; i++) {
+            System.out.println("[기본 메신저] (" + i + "/" + count + ") " + message);
         }
     }
 }
@@ -35,6 +35,7 @@ public class Overloading_and_Overriding_Challenge_1 {
         System.out.println();
 
         SmartMessenger sm = new SmartMessenger();
+        sm.send("안녕");
         sm.send("안녕", true);
         sm.send("반가워",2);
     }
