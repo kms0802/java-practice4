@@ -32,7 +32,7 @@ class Boat_5 extends Vehicle_5 {
     }
 }
 
-public class Abstraction_Challenge_5 {
+public class Abstraction_Challenge_5_fall {
     public static void main(String[]args) {
         Vehicle_5 v1 = new Car_5("현대");
         Vehicle_5 v2 = new Boat_5("보트코리아");
