@@ -36,7 +36,7 @@ class PartTimeEmployee extends Employee {
     }
 }
 
-public class Abstraction_Challenge_2 {
+public class Abstraction_Challenge_2_fall {
     public static void main(String[]args) {
         Employee e1 = new FullTimeEmployee("김철수", 4000000);
         Employee e2 = new PartTimeEmployee("이영희", 15000, 80);
