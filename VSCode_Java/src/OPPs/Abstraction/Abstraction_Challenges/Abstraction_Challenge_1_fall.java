@@ -38,7 +38,7 @@ class Circle extends Shape {
     }
 }
 
-public class Abstraction_Challenge_1 {
+public class Abstraction_Challenge_1_fall {
     public static void main(String[]args) {
         Shape s1 = new Rectangle(5,4);
         Shape s2 = new Circle(3);
