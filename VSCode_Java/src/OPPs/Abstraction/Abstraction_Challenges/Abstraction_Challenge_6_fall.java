@@ -13,16 +13,26 @@ abstract class Payment {
 }
 
 class CreditCard extends Payment {
-    public CreditCard(String methodName) {
-        super(methodName);
+    public CreditCard() {
+        super("신용카드");
     }
 
     public void pay(int amount) {
-        System.out.println("현금으로 [" + amount + "]원 결제합니다.");
+        System.out.println("신용카드로 [" + amount + "]원 결제합니다.");
     }
 }
 
-public class Abstraction_Challenge_6 {
+class Cash extends Payment {
+    public Cash() {
+        super("현금");
+    }
+
+    public void pay(int amount) {
+        System.out.println("현금으로" + amount + "원 결제합니다.");
+    }
+}
+
+public class Abstraction_Challenge_6_fall {
     public static void main(String[]args) {
         Payment p1 = new CreditCard();
         Payment p2 = new Cash();
