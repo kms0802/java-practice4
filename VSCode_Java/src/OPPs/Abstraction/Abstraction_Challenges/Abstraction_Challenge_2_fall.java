@@ -5,7 +5,7 @@ abstract class Employee {
 
     abstract public int calculatePay();
     public void printInfo() {
-        System.out.println("이름: " + name + "급여");
+        System.out.println("이름: " + name + "급여" + calculatePay() + "원");
     }
 }
 
