@@ -39,7 +39,7 @@ class PartTimer extends Employee {
     
 }
 
-public class Abstraction_Challenge_7 {
+public class Abstraction_Challenge_7_fall {
     public static void main(String[]args) {
         Employee e1 = new Manager("김과장", 3000000);
         Employee e2 = new PartTimer("이알바", 10000, 120);
