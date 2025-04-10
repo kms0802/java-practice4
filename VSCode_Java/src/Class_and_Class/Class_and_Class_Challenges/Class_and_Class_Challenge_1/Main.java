@@ -16,8 +16,9 @@ class Car {
     String model;
     Engine engine;
 
-    public Car(String model) {
+    public Car(String model, Engine engine) {
         this.model = model;
+        this.engine = engine;
     }
 
     public void drive() {
@@ -28,7 +29,7 @@ class Car {
 public class Main {
     public static void main(String[]args) {
         Engine v8 = new Engine("V8");
-        Car ms = new Car("Mustang");
+        Car ms = new Car("Mustang", v8);
 
         ms.drive();
     }
