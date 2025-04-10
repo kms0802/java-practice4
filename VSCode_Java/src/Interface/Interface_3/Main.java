@@ -28,9 +28,9 @@ class Train implements Movable {
 public class Main {
     public static void main(String[]args) {
         Movable[] vehicles = {
-            new Car();
-            new Airplane();
-            new Train();
+            new Car(),
+            new Airplane(),
+            new Train(),
         };
 
         for (Movable m : vehicles) {
