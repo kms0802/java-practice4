@@ -1,4 +1,4 @@
-package OPPs;
+package OPPs.Class;
 
 public class Dog {
     String name;

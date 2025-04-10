@@ -1,4 +1,4 @@
-package OPPs;
+package OPPs.Class;
 
 public class Student_2 {
     String name;

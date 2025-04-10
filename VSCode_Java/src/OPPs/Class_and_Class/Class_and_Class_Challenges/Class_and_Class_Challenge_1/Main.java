@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_Challenges.Class_and_Class_Challenge_1;
+package OPPs.Class_and_Class.Class_and_Class_Challenges.Class_and_Class_Challenge_1;
 
 class Engine {
     String type;

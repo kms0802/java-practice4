@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_2;
+package OPPs.Class_and_Class.Class_and_Class_2;
 
 class Address {
     String city;

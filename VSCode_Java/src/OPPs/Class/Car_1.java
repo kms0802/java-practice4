@@ -1,4 +1,4 @@
-package OPPs;
+package OPPs.Class;
 
 public class Car_1 {
     String model;

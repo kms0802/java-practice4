@@ -1,4 +1,4 @@
-package Interface.Interface_1;
+package OPPs.Interface.Interface_1;
 
 interface Playable {
     void play();

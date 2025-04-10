@@ -1,4 +1,4 @@
-package Interface.Interface_2;
+package OPPs.Interface.Interface_2;
 
 interface Soundable {
     void makeSound();

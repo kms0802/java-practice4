@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_4;
+package OPPs.Class_and_Class.Class_and_Class_4;
 
 class Employee {
     String name;

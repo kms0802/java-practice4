@@ -1,4 +1,4 @@
-package OPPs;
+package OPPs.Class;
 
 class Car {
     String brand;

@@ -1,4 +1,4 @@
-package OPPs;
+package OPPs.Class;
 
 public class OPP_12 {
     public static void main(String[]args) {

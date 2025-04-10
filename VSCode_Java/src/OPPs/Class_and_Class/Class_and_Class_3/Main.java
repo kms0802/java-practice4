@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_3;
+package OPPs.Class_and_Class.Class_and_Class_3;
 
 class Author {
     String name;

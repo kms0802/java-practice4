@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_6;
+package OPPs.Class_and_Class.Class_and_Class_6;
 
 class Camera {
     int resolution;

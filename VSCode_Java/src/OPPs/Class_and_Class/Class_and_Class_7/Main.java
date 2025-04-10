@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_7;
+package OPPs.Class_and_Class.Class_and_Class_7;
 
 class Keyboard {
     String type;

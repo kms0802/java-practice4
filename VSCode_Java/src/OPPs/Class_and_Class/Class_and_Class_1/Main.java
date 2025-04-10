@@ -1,4 +1,4 @@
-package Class_and_Class.Class_and_Class_1;
+package OPPs.Class_and_Class.Class_and_Class_1;
 
 class Animal {
     void eat() {

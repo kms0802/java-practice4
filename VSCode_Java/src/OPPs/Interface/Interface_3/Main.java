@@ -1,4 +1,4 @@
-package Interface.Interface_3;
+package OPPs.Interface.Interface_3;
 
 interface Movable {
     void move();

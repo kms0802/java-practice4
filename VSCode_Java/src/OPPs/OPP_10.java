@@ -1,4 +1,6 @@
-package OPPs.Class;
+package OPPs;
+
+import OPPs.Class.Car_1;
 
 public class OPP_10 {
     public static void main(String[]args) {

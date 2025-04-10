@@ -1,4 +1,4 @@
-package Interface.Interface_Challenges.Interface_Challenge_1;
+package OPPs.Interface.Interface_Challenges.Interface_Challenge_1;
 
 interface Calculator {
     int operate(int a, int b);
