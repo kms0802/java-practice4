@@ -1,4 +1,4 @@
-package Interface;
+package Interface.Interface_1;
 
 interface Playable {
     void play();
