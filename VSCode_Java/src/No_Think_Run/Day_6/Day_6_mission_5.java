@@ -1,0 +1,13 @@
+package No_Think_Run.Day_6;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Day_6_mission_5 {
+    public static void main(String[]args) {
+        List<String> names = List.of("alice", "bob", "charlie", "david", "eve");
+        names.stream()
+             .map(name -> name.toUpperCase())
+             .forEach(System.out::println);
+    }
+}
