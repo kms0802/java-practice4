@@ -1,18 +1,25 @@
 package No_Think_Run;
 
-enum Membership {
-    BRONZE(0.01),
-    SILVER(0.03),
-    GOLD(0.05),
-    VIP(0.10);
+enum Season {
+    SPRING("따뜻한 봄"),
+    SUMMER("무더운 여름"),
+    FALL("시원한 가을"),
+    WINTER("추운 겨울");
 
-    private double rate;
+    private String description;
 
-    Membership(double rate) {
-        this.rate = rate;
+    Season(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }
 
 public class memo {
-
+    public static void main(String[]args) {
+        Season s = Season.SUMMER;
+        System.out.println(s + ": " + s.getDescription());
+    }
 }
