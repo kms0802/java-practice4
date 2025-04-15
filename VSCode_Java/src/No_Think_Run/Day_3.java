@@ -2,7 +2,7 @@ package No_Think_Run;
 
 import java.util.ArrayList;
 
-class Box<T> {
+class Box_1<T> {
     private T item;
 
     public void set(T item) {
@@ -24,11 +24,11 @@ public class Day_3 {
             System.out.println(s.toUpperCase());
         }
 
-        Box<String> stringBox = new Box<>();
+        Box_1<String> stringBox = new Box_1<>();
         stringBox.set("사과");
         System.out.println(stringBox.get());
 
-        Box<Integer> intBox = new Box<>();
+        Box_1<Integer> intBox = new Box_1<>();
         intBox.set(123);
         System.out.println(intBox.get());
     }
