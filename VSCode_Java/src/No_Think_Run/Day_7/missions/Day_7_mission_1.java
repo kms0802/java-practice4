@@ -17,6 +17,8 @@ public class Day_7_mission_1 {
 
         } catch (ArithmeticException e) {
             System.out.println("0으로 나눌 수 없습니다.");
+        } finally {
+            scanner.close();
         }
 
         System.out.println("시스템을 종료합니다.");
