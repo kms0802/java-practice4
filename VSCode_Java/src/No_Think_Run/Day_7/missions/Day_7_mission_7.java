@@ -10,7 +10,7 @@ public class Day_7_mission_7 {
             String check = scanner.nextLine();
             int check_num = scanner.nextInt();
     
-            String result = .check.charAt(check_num);
+            char result = check.charAt(check_num);
         } catch (StringIndexOutOfBoundsException e) {
             System.out.println("문자열 오류");
         } finally {
