@@ -10,11 +10,11 @@ class SignupException extends Exception {
 
 public class Day_8_mission_3 {
     public static void validateSignup(String name, int age, String email) throws SignupException{
-        if (name.trim()) {
+        if (name.trim().isEmpty()) {
             throw new SignupException("이름을 입력해야 합니다.");
         } else if (age <= 0) {
             throw new SignupException("나이는 1세 이상이어야 합니다.");
-        } else if (!email.matches("@")) {
+        } else if (!email.matches(".+@.+\\..+")) {
             throw new SignupException("올바른 이메일 형식이 아닙니다.");
         } else {
             System.out.println("회원 가입 완료");
@@ -29,6 +29,7 @@ public class Day_8_mission_3 {
         String name = scanner.nextLine();
         System.out.println("나이 입력: ");
         int age = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("이메일 입력: ");
         String email = scanner.nextLine();
         validateSignup(name, age, email);   
