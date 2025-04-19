@@ -18,5 +18,9 @@ enum Season {
 }
 
 public class memo { 
-    Set<String> list_set = new LinkedHashSet<>(list);
+    Map<String, Integer> countMap = new HashMap<>();
+
+    for (String task : todoList) {
+        countMap.put(task, countMap.getOrDefault(task, 0) + 1);
+    }
 }
