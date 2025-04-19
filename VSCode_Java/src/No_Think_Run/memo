@@ -17,9 +17,6 @@ enum Season {
     }
 }
 
-public class memo {
-    public static void main(String[]args) {
-        Season s = Season.SUMMER;
-        System.out.println(s + ": " + s.getDescription());
-    }
+public class memo { 
+    Set<String> list_set = new LinkedHashSet<>(list);
 }
