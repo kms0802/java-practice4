@@ -1,8 +1,8 @@
 package No_Think_Run.Day_9;
 
 import java.io.IOException;
-import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.BufferedReader;
 
 public class Day_9_2 {
     public static void main(String[]args) {
