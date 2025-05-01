@@ -6,18 +6,22 @@ public class practice_9_3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("1. 아메리카노, 2. 카페라떼, 3. 카푸치노");
         int order = scanner.nextInt();
+        String order_msg = "";
 
         switch (order) {
             case 1 :
                 System.out.println("주문 음식 : 아메리카노");
+                order_msg = "아메리카노";
                 basePrice += 3000;
                 break;
             case 2 : 
                 System.out.println("주문 음식 : 카페라뗴");
+                order_msg = "카페라뗴";
                 basePrice += 4000;
                 break;
             case 3 : 
                 System.out.println("주문 음식 : 카푸치노");
+                order_msg = "카푸치노";
                 basePrice += 4500;
                 break;
             default :
@@ -69,6 +73,6 @@ public class practice_9_3 {
                 return;
         }
         scanner.close();
-        System.out.println("최종 가격 : " + basePrice);
+        System.out.println("주문 음식 : " + order_msg + "최종 가격 : " + basePrice);
     }
 }

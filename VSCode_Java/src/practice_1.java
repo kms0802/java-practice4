@@ -1,19 +1,16 @@
 import java.util.Scanner;
 
 public class practice_1 {
-    public static void main(String[]args){
+    public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
 
-        int num1, num2;
-        
-        System.out.print("num1입력 : ");
-        num1 = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("num2입력 : ");
-        num2 = scanner.nextInt();
+        System.out.print("입력: ");
+        int num1 = scanner.nextInt();
 
-        System.out.print("num1 + num2 : ");
-        System.out.print(num1 + num2);
-        scanner.close();
+        if(num1 >= 1 && num1 <= 100) {
+            System.out.println("출력: 1에서 100사이의 값입니다.");
+        } else {
+            System.out.println("출력: 1에서 100 사이의 값이 아닙니다.");
+        }
     }
 }
